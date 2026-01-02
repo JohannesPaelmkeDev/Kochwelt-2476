@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kochwelt</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./img/favicon.ico" type="image/x-icon">
+    <script src="./js/loader.js"></script>
+    <script src="./js/calculate.js" defer></script>
+</head>
+<body>
+    <section class="hero">
+        <img src="./img/chef.png" alt="Kochwelt Hero Image" class="hero-image" onclick="loadPage('home.html')">
+        <h1 class="hero-title">Kochwelt</h1>
+    </section>
+    <section class="navbar">
+        <nav class="nav-links">
+            <a href="#" onclick="loadPage('home.html')">Start</a>
+            <a href="#" onclick="loadPage('eggnog.html')">Rezept des Tages</a>
+            <a href="#" onclick="loadPage('contact.html')">Kontakt</a>
+            <a href="#" onclick="loadPage('impressum.html')">Impressum</a>
+        </nav>
+    </section>
+    <section class="content">
+        <div id="content-container" class="content"></div>
+    </section>
+    <footer class="footer">
+        <p>&copy; 2024 Kochwelt. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
